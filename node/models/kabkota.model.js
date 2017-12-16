@@ -10,10 +10,10 @@ module.exports = function(sequelize, DataType) {
 		name: DataType.STRING,
 		province_id: {
 			type: DataType.CHAR(2),
-			references: {
-				model: Provinsi,
-				key: 'id'
-			}
+			// references: {
+			// 	model: Provinsi,
+			// 	key: 'id'
+			// }
 		}
 	});
 }

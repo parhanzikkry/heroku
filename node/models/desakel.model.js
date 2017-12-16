@@ -10,10 +10,10 @@ module.exports = function(sequelize, DataType) {
 		name: DataType.STRING,
 		district_id: {
 			type: DataType.CHAR(7),
-			references: {
-				model: Kecamatan,
-				key: 'id'
-			}
+			// references: {
+			// 	model: Kecamatan,
+			// 	key: 'id'
+			// }
 		}
 	});
 }

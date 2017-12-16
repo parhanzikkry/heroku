@@ -10,10 +10,10 @@ module.exports = function(sequelize, DataType) {
 		name: DataType.STRING,
 		regency_id: {
 			type: DataType.CHAR(4),
-			references: {
-				model: Kabkota,
-				key: 'id'
-			}
+			// references: {
+			// 	model: Kabkota,
+			// 	key: 'id'
+			// }
 		}
 	});
 }
