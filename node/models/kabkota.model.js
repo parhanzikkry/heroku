@@ -3,6 +3,10 @@ var sequelize = require(__dirname + '/../dbconnection'),
 
 module.exports = function(sequelize, DataType) {
 	return sequelize.define('regency', {
+		id: {
+			type: DataType.CHAR(4),
+			primaryKey: true
+		},
 		name: DataType.STRING,
 		province_id: {
 			type: DataType.CHAR(2),
