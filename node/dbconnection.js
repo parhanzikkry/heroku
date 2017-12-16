@@ -1,8 +1,8 @@
 var Sequelize = require('sequelize');
 
-module.exports = new Sequelize('lahankosong'/*DB name*/, 'root'/*DB username*/, 'gr1mr34p3r'/*DB password*/, {
-	host: 'localhost',
-	dialect: 'mysql'/*type of DBMS*/,
+module.exports = new Sequelize('de0ao4hl8qqkg4'/*DB name*/, 'jozqkhiztosydl'/*DB username*/, 'f7e00a18f18c0827876cc0e79221cfa454dafd90e41d8a8f1d3425fe8757eb9a'/*DB password*/, {
+	host: 'ec2-54-235-244-185.compute-1.amazonaws.com',
+	dialect: 'postgres'/*type of DBMS*/,
 
 	pool: {
 		/*Set max requesting to database*/
